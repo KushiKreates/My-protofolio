@@ -1,0 +1,10 @@
+<div className="icon-container">
+  <div>
+    <img src="public/icons8-python.svg" alt="Python" className="python-image" />
+
+  </div>
+  <div>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg" alt="Node.js" className="nodejs-image" />
+
+  </div>
+</div>

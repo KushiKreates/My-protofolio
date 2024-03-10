@@ -1,0 +1,53 @@
+/* App.css */
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(45deg, #FF6B6B, #d3e0ea); /* Pink and light blue gradient */
+}
+
+header {
+  padding: 20px; /* Add some padding around the content */
+  text-align: center; /* Center align the content */
+  
+  color: white; /* Text color */
+}
+
+h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+main {
+  padding: 20px;
+  color: white; /* Text color */
+  margin-top: 0; /* Remove margin between sections */
+}
+
+.dark-custom-image {
+  background-image: url('https://wallpapercave.com/wp/wp8773104.jpg');
+  background-size: cover;
+}
+
+.light-custom-image {
+  /* Add styles for the light custom image background if needed */
+}
+
+.toggle-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.toggle-button img {
+  margin-left: 10px;
+}
+
+.toggle-button:hover {
+  background-color: #0056b3;
+}

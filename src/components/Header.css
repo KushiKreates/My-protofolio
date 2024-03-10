@@ -1,0 +1,44 @@
+/* Header.css */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background: linear-gradient(45deg, #FF6B6B, #d3e0ea)/* Change to your preferred background color */
+  color: white; /* Text color */
+}
+
+.left-content {
+  display: flex;
+  align-items: center;
+}
+
+.text-box {
+  margin-right: auto; /* Push the text box to the left */
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+}
+
+.menu-icon {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+
+/* Styles for the expanded menu */
+.navbar.expanded {
+  flex-direction: column;
+  background-color: #222; /* Change to your preferred background color */
+  position: absolute;
+  top: 100%; /* Position the expanded menu below the header */
+  right: 0;
+  padding: 20px;
+}
+
+.navbar.expanded .menu-icon {
+  margin-top: 10px;
+}
